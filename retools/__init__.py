@@ -12,6 +12,7 @@ Alternatively, many parts of retools accept Redis instances that may be passed
 directly.
 
 """
+import __builtin__
 from redis import Redis
 
 __all__ = ['Connection']
