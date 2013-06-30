@@ -12,7 +12,6 @@ requires every client to have synchronized time.
 
 """
 # Copyright 2010,2011 Chris Lamb <lamby@debian.org>
-
 import time
 import uuid
 

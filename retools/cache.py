@@ -19,6 +19,7 @@ object::
     CacheRegion.add_region("short_term", expires=60)
 
 """
+from __future__ import with_statement
 import cPickle
 import time
 from datetime import date
